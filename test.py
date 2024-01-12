@@ -20,7 +20,7 @@ def test():
 
     @task()
     def sleep():
-        time.sleep()
+        time.sleep(15)
 
     @task()
     def run():
